@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Simón dice</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='css/style.css'>
+    <link rel='stylesheet' href='node_modules/bootstrap/dist/css/bootstrap.css'>
+    <p id='titulo'>Simón dice</p>
+</head>
+
+<body>
+
+    <div class="alert alert-primary" role="alert" id="estado"><!-- --></div>
+
+    <p>Ronda # <strong id="ronda">0</strong></p>
+
+    <div class='container' id='grilla'>
+        <div class='row'>
+            <div class='col mb-5 mr-5 rounded-pill  cuadro' id='cuadro-a'></div>
+            <div class='col  rounded-pill  cuadro' id='cuadro-b'></div>
+            <div class="w-100"></div>
+            <div class='col mr-5  rounded-pill  cuadro' id='cuadro-c'></div>
+            <div class='col  rounded-pill  cuadro' id='cuadro-d'></div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div id='divBoton'>
+    <button type="button" class="btn btn-primary" id='boton'>Empezar</button>
+    </div>
+</body>
+
+</html>

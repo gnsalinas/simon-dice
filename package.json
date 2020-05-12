@@ -1,0 +1,22 @@
+{
+  "name": "simon-dice",
+  "version": "1.0.0",
+  "description": "Versión del juego Simón Dice",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnsalinas/simon-dice.git"
+  },
+  "author": "Gustavo Salinas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gnsalinas/simon-dice/issues"
+  },
+  "homepage": "https://github.com/gnsalinas/simon-dice#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  }
+}

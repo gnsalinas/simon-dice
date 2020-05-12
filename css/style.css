@@ -1,0 +1,41 @@
+#titulo {
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 200%;
+    margin-top: 15pt;
+}
+
+#cuadro-a {
+    background-color: green;
+}
+
+#cuadro-b{
+    background-color: red;
+}
+
+#cuadro-c{
+    background-color: yellow;
+}
+
+#cuadro-d{
+    background-color: blue;
+}
+
+.cuadro {
+    opacity: 50%;
+    height: 100px;
+    width: 300px;
+}
+
+p {
+    text-align: center;
+}
+
+#estado{
+    text-align: center;
+}
+
+#divBoton{
+    text-align: center;
+}
